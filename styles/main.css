@@ -1,0 +1,171 @@
+html {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    background-color: white;
+    padding: 0px;
+    margin: 0px;
+    font-family: "Poppins", Verdana, Tahoma, sans-serif;
+}
+
+a {
+    color: white;
+}
+
+.top-banner {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+}
+
+.container {
+    background-color: lightblue;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.top-title {
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    margin: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    font-weight: 700;
+
+}
+
+.nav-bar {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+.nav-bar a:link {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.nav-bar a:visited {
+    float: left;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.nav-bar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+.nav-bar a:active {
+    background-color: dodgerblue;
+    color: pink;
+  }
+
+#current {
+    color: orange;
+  }
+
+/* #brick-rd-banner {
+    border: 2px solid black;  
+    background: url("images/yellowbrickbanner.png") no-repeat;
+    background-size: 100%;
+} */
+
+/* .color-headline {
+        color: #F9911D;
+} */
+
+.oz-friends {
+    background-color: lightblue;
+    padding: 10px 40px;
+}
+
+.main_friends {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 0px 10px;
+}
+
+.friend {
+    text-align: center;
+    max-width: 200px;
+    /* height: 300px; */
+    overflow: hidden;
+    background-color: white;
+    margin: 5px;
+}
+
+.story {
+    padding: 10px 40px 10px 40px;
+    overflow: hidden;
+    background-color: white;
+}
+
+.facts {
+    background-color: lightgray;
+    padding: 10px 40px;
+}
+
+.oz-facts {
+    color: dodgerblue;
+}
+
+a.news-articles  {
+    color: dodgerblue;
+}
+
+.friend img {
+    width: 100%;
+    height: auto;
+}
+
+main {
+    display: flex;
+}
+
+.main_content {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+}
+
+.main_content img {
+    width: 100%;
+    margin: 0px;
+}
+
+footer {
+    width: 100%;
+    background-color: #333;
+    color: white;
+}
+
+.copyright {
+    float: right;
+    padding-top: 15px;
+    padding-right: 20px;
+}
